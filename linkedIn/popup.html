@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Auto Apply</title>
+  <script src="https://cdn.tailwindcss.com"></script>  <!-- Load Tailwind CSS -->
+</head>
+<body class="bg-gray-100 p-4">
+  <h1 class="text-2xl font-bold mb-4 text-center">Auto Apply Setup</h1>
+  
+  <div class="mb-4">
+    <label class="block mb-2">Name:</label>
+    <input type="text" id="name" class="w-full p-2 border rounded-md" placeholder="Your Name">
+  </div>
+  
+  <div class="mb-4">
+    <label class="block mb-2">Email:</label>
+    <input type="email" id="email" class="w-full p-2 border rounded-md" placeholder="Your Email">
+  </div>
+  
+  <div class="mb-4">
+    <label class="block mb-2">expected CTC:</label>
+    <input type="number" id="exp_ctc" class="w-full p-2 border rounded-md" placeholder="expected CTC">
+  </div>
+  
+  <div class="mb-4">
+    <label class="block mb-2">Current CTC:</label>
+    <input type="number" id="current_ctc" class="w-full p-2 border rounded-md" placeholder="Current CTC">
+  </div>
+  
+  <div class="mb-4">
+    <label class="block mb-2">Years of Experience:</label>
+    <input type="number" id="yoe" class="w-full p-2 border rounded-md" placeholder="Years of Experience">
+  </div>
+
+  <div class="mb-4">
+    <label class="block mb-2">Months of Experience:</label>
+    <input type="number" id="moe" class="w-full p-2 border rounded-md" placeholder="Months of Experience">
+  </div>
+  
+
+  <div class="mb-4">
+    <label class="block mb-2">Location:</label>
+    <input type="text" id="location" class="w-full p-2 border rounded-md" placeholder="Location">
+  </div>
+  
+  <button id="save" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 w-full">Save Details</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
